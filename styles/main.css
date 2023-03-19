@@ -63,7 +63,6 @@ a, a:visited, a:active{
     padding: 5px;
     color: var(--white-color);
     cursor: pointer;
-    font-weight: bold;
     position: relative;
     display: inline-block;
     margin-top: 5px;
@@ -78,6 +77,12 @@ a, a:visited, a:active{
 .tag-js{
     background-color: rgb(239, 241, 67);
     color: black;
+}
+.tag-kotlin{
+    background-color: rgb(46, 148, 68);
+}
+.tag-git{
+    background-color: rgb(221, 27, 27);
 }
 .tag-bootstrap{
     background-color: rgb(121, 87, 245);
