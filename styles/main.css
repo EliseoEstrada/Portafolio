@@ -1,0 +1,109 @@
+:root{
+    --white-color: rgb(230, 230, 230);
+}
+
+*{
+    font-family: monospace;
+}
+
+body{
+    background: rgb(218,218,218);
+    background: linear-gradient(90deg, rgba(218,218,218,1) 0%, rgba(230,230,230,1) 35%, rgba(205,205,205,1) 100%);
+}
+
+a, a:visited, a:active{
+    text-decoration:none;
+}
+
+.row{
+    margin: 0;
+}
+
+
+.div-imagen {
+    display:inline-block;
+    position:relative;
+  }
+
+
+  
+.texto{
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:-1;
+    padding:10px;
+    margin:0;
+}
+
+.desvanecer:hover {
+    opacity: 0.07;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    -ms-transition: opacity 500ms;
+    transition: opacity 500ms;
+
+  }
+
+.content-box{
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+@media (min-width : 992px) {
+    .main{
+        max-width: 60%;
+        margin: auto;
+    }
+}
+
+.tag{
+    border-radius: 10px;
+    padding: 5px;
+    color: var(--white-color);
+    cursor: pointer;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.tag-html{
+    background-color: rgb(233, 140, 34);
+}
+.tag-css{
+    background-color: rgb(41, 122, 228);
+}
+.tag-js{
+    background-color: rgb(239, 241, 67);
+    color: black;
+}
+.tag-bootstrap{
+    background-color: rgb(121, 87, 245);
+}
+.tag-php{
+    background-color: rgb(87, 169, 245);
+    color: black;
+}
+.tag-mysql{
+    background-color: rgb(0, 95, 184);
+}
+
+.github-ico{
+    color: rgb(116, 116, 116);
+    font-size: 2.5rem;
+}
+.github-ico:hover{
+    color: #925ce2;
+}
+
+
+.tag-contact{
+    font-size: 3rem;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 100%;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
