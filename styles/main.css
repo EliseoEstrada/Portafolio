@@ -82,6 +82,9 @@ a, a:visited, a:active{
 .tag-bootstrap{
     background-color: rgb(121, 87, 245);
 }
+.tag-tailwind{
+    background-color: rgb(55, 149, 212);
+}
 .tag-php{
     background-color: rgb(87, 169, 245);
     color: black;
