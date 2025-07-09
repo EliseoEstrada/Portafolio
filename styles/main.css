@@ -91,6 +91,11 @@ nav a:hover {
   }
 }
 
+.img-project{
+  max-width: 100%;
+  height:20rem;
+}
+
 .tag {
   border-radius: 5px;
   padding: 5px;
