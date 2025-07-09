@@ -1,4 +1,4 @@
-$('.card').hover(
+$('.skill').hover(
     function(){ $(this).addClass('animate__headShake') },
     function(){ $(this).removeClass('animate__headShake') }
 )
